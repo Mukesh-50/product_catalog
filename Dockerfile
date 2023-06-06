@@ -1,5 +1,5 @@
 #Make sure you point the ECR Image correctly
-FROM <YourAccountNo>.dkr.ecr.us-east-1.amazonaws.com/catalogapp:python3
+FROM python:3.9-slim
 
 RUN apt-get update \
     && apt-get install curl -y \
